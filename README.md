@@ -25,7 +25,7 @@ YOLOv8s	0.78	0.48	0.79	0.76	52
 🚀 Quick Start
 1. Clone & Install
 bash
-git clone https://github.com/yourusername/kvasir-yolo11.git
+git clone https://github.com/choiy4432/kvasir-yolo11.git
 cd kvasir-yolo11
 pip install -r requirements.txt
 2. Download Dataset
