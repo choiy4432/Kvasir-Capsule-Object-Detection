@@ -23,6 +23,7 @@ Real-time detection of 6 gastrointestinal lesions using YOLO11 on Kvasir Capsule
 | YOLO11s | 0.83  | 0.52     | 0.82      | 0.79   | 45       |
 | YOLO11m | 0.85  | 0.55     | 0.84      | 0.81   | 32       |
 | YOLOv8s | 0.78  | 0.48     | 0.79      | 0.76   | 52       |
+
 🚀 Quick Start
 1. Clone & Install
 bash
