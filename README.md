@@ -82,6 +82,7 @@ lr0=0.001 (convergence speed)
 dropout=0.0 (medical data underfitting fix)
 ```
 🩺 Clinical Applications
+
 Real-time polyp detection during capsule endoscopy
 
 Automated lesion screening - 83% accuracy
@@ -91,6 +92,7 @@ AI-assisted diagnosis for gastroenterologists
 Telemedicine integration for remote diagnosis
 
 📈 Results Visualization
+
 <img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/b00c32c3-e2f1-4877-bba3-de588a5d1ee9" />
 
 🛠️ Development
