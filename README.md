@@ -1,8 +1,8 @@
 # Kvasir-Capsule-Object-Detection
 YOLO11 Medical Endoscopy Lesion Detection
-[
-[
-[
+
+
+
 
 Real-time detection of 6 gastrointestinal lesions using YOLO11 on Kvasir Capsule endoscopy dataset. Achieved mAP50: 0.83 for polyp, ulcer, blood detection.
 
