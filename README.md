@@ -1,6 +1,10 @@
 # Kvasir-Capsule-Object-Detection
-YOLO11 Medical Endoscopy Lesion Detection
+
 <임시>
+
+
+YOLO11 Medical Endoscopy Lesion Detection
+
 
 
 
