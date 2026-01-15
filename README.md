@@ -26,25 +26,29 @@ Real-time detection of 6 gastrointestinal lesions using YOLO11 on Kvasir Capsule
 
 🚀 Quick Start
 1. Clone & Install
-bash
-git clone https://github.com/choiy4432/kvasir-yolo11.git
+```
+git clone https://github.com/yourusername/kvasir-yolo11.git
 cd kvasir-yolo11
 pip install -r requirements.txt
-2. Download Dataset
-bash
+```
+3. Download Dataset
+```
 # Kvasir Capsule dataset (auto-download)
 python dataset.py --download
 3. Train
 bash
 yolo train data=data.yaml model=yolo11s.pt epochs=100 batch=16 imgsz=640 project=kvasir_capsule name=yolo11s
+```
 4. Inference
-bash
+```
 # Single image
 yolo predict model=runs/detect/yolo11s/weights/best.pt source="path/to/endoscopy.jpg"
 
 # Video/Webcam
 yolo predict model=runs/detect/yolo11s/weights/best.pt source=0  # webcam
+```
 📁 Project Structure
+```
 text
 kvasir-yolo11/
 ├── dataset/           # Kvasir Capsule dataset
@@ -57,8 +61,10 @@ kvasir-yolo11/
 │   └── kvasir.yaml    # Optimal hyperparameters
 ├── inference.py       # Real-time demo
 └── requirements.txt
+```
 🏋️ Training Configuration
-text
+
+```
 # configs/kvasir.yaml - Optimized for medical imaging
 nc: 6  # 6 GI lesions
 batch: 16
@@ -74,7 +80,7 @@ batch=16 + amp=True (stability)
 lr0=0.001 (convergence speed)
 
 dropout=0.0 (medical data underfitting fix)
-
+```
 🩺 Clinical Applications
 Real-time polyp detection during capsule endoscopy
 
@@ -85,11 +91,8 @@ AI-assisted diagnosis for gastroenterologists
 Telemedicine integration for remote diagnosis
 
 📈 Results Visualization
-🔧 Troubleshooting
-Issue	Solution
-loss=NaN	amp=False, batch=8, lr0=0.0001
-mAP=0.0	Check label format, nc=6, class IDs 0-5
-OOM Error	batch=8, imgsz=416
+<img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/b00c32c3-e2f1-4877-bba3-de588a5d1ee9" />
+
 🛠️ Development
 bash
 # Activate environment
